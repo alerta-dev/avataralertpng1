@@ -1,9 +1,19 @@
-/* Configuración base para que la escena ocupe el espacio del lienzo de OBS (ej: 1920x1080) */
+/* RESETEO BÁSICO PARA ELIMINAR MÁRGENES Y SCROLL */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* 🛑 ESTO ELIMINA DEFINITIVAMENTE EL SCROLL */
+}
+
+/* Asegura que el contenedor de la escena se ajuste a la ventana */
 #premiacion-escena {
     position: relative;
-    width: 1920px; /* Ajusta a la resolución de tu base en OBS */
-    height: 1080px;
-    overflow: hidden;
+    width: 100vw; /* 'viewport width': 100% del ancho visible del navegador */
+    height: 100vh; /* 'viewport height': 100% del alto visible del navegador */
+    /* REMUEVE los valores fijos de 1920px/1080px si estás usando Netlify/Navegador */
+    overflow: hidden; 
 }
 
 /* === 1. FONDO === */

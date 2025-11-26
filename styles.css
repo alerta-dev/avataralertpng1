@@ -13,7 +13,9 @@
     height: 100%;
     /* 🚨 IMPORTANTE: Reemplaza con la URL de tu imagen de fondo */
     background-image: url('https://i.imgur.com/PKpweQU.png'); 
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat; /* Opcional: Evita que la imagen se repita */
+    background-position: center; /* Opcional: Centra la imagen */
     z-index: 1; /* Capa más baja */
 }
 

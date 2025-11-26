@@ -36,8 +36,8 @@ html, body {
     position: absolute;
 
     /* ⬇️ NUEVA POSICIÓN: Más abajo y un poco más al centro ⬇️ */
-    top: 200px; /* Antes era 150px */
-    left: 650px; /* Antes era 700px */
+    top: 100px; /* Antes era 150px */
+    left: 270px; /* Antes era 700px */
 
     /* ⬇️ NUEVO TAMAÑO: Reducido ⬇️ */
     width: 400px; /* Antes era 500px */
@@ -48,8 +48,8 @@ html, body {
 
 /* Estilo del iframe de FugiTech */
 #avatar-container iframe {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     border: none;
     /* Asegúrate de configurar el fondo de tu FugiTech como transparente para que se vea el fondo de la página. */
 }

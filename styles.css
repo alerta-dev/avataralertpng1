@@ -30,13 +30,19 @@ html, body {
 }
 
 /* === 2. AVATAR (Contenedor del iframe) === */
+/* styles.css */
 #avatar-container {
     /* Posicionamiento y tamaño del avatar en tu escena */
     position: absolute;
-    top: 150px;
-    left: 700px;
-    width: 500px; 
-    height: 800px;
+
+    /* ⬇️ NUEVA POSICIÓN: Más abajo y un poco más al centro ⬇️ */
+    top: 200px; /* Antes era 150px */
+    left: 650px; /* Antes era 700px */
+
+    /* ⬇️ NUEVO TAMAÑO: Reducido ⬇️ */
+    width: 400px; /* Antes era 500px */
+    height: 600px; /* Antes era 800px */
+
     z-index: 3; 
 }
 
